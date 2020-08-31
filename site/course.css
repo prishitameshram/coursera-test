@@ -40,3 +40,13 @@ h1{
 	background-color: maroon;
 	display: inline;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #chicken, #beef {
+    width: 50%;
+  }
+  #sushi{
+  	width: 100%;
+  }
+}
+
