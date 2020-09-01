@@ -16,7 +16,16 @@ h1{
     margin-left: 20px;
     padding: 10px;
     overflow: auto;
-    width: 30%;
+}
+
+
+.chicken, .beef{
+	width: 30%;
+}
+
+.sushi{
+	width: 60%;
+	clear:both;
 }
 
 #chicken_title, #sushi_title, #beef_title{
@@ -42,6 +51,3 @@ h1{
 	background-color: maroon;
 	display: inline;
 }
-
-
-
